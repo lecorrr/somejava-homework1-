@@ -1,0 +1,25 @@
+package javahomework;
+
+import java.util.Scanner;
+
+public class Firsthomework {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("input four numbers");
+		double a = sc.nextDouble();
+		double b = sc.nextDouble();
+		double c = sc.nextDouble();
+		double d = sc.nextDouble();
+		double max;
+		max = a;
+		if (b > a)
+			max = b;
+		if (c > b)
+			max = c;
+		if (d > c)
+			max = d;
+			System.out.println("max is " + max); 
+	}
+
+}
