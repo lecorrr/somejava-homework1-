@@ -15,9 +15,9 @@ public class Firsthomework {
 		max = a;
 		if (b > a)
 			max = b;
-		if (c > b)
+		if (c > a)
 			max = c;
-		if (d > c)
+		if (d > a)
 			max = d;
 			System.out.println("max is " + max); 
 	}
